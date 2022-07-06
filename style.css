@@ -101,14 +101,40 @@ h1{
     display: flex;
 }
 
+
 #food{
+    margin: 50px;
     background-color: rgb(200, 195, 195);
+    font-size: 20px;
 }
 
 #shelter{
+    margin: 50px;
     background-color: rgb(226, 209, 225);
+    font-size: 20px;
 }
 
 #education{
+    margin: 50px;
     background-color: rgb(236, 236, 194);
+    font-size: 20px;
+
 }
+
+.boxs2 .card2 .icon1{
+    display: flex;
+    position: left;
+    margin: 30px 40px 50px 10px;
+} 
+
+.boxs2 .card2 .icon2{
+    display: flex;
+    position: left;
+    margin: 30px 40px 50px 10px;
+} 
+
+.boxs2 .card2 .icon3{
+    display: flex;
+    position: left;
+    margin: 30px 40px 50px 10px;
+} 
