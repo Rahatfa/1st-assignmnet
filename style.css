@@ -1,5 +1,6 @@
 body{
     font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
 }
 .header{
     display: flex;
@@ -13,6 +14,10 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     background-position: center;
+}
+
+.top-section p{
+    font-size: 15px;
 }
 .button{
     border-radius: 5px;
@@ -41,7 +46,7 @@ h1{
 }
 .donate p{
     width: 50%;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
@@ -83,4 +88,27 @@ h1{
     text-align: center;
 }
 
+.plan{
+    text-align: center;
+    color: rgb(14, 12, 12);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
 
+.boxs2{
+    display: flex;
+}
+
+#food{
+    background-color: rgb(200, 195, 195);
+}
+
+#shelter{
+    background-color: rgb(226, 209, 225);
+}
+
+#education{
+    background-color: rgb(236, 236, 194);
+}
