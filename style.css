@@ -1,6 +1,8 @@
 body{
     font-size: 30px;
     font-family: 'Roboto Mono', monospace;
+    padding: 30px;
+
 }
 .header{
     display: flex;
@@ -31,6 +33,10 @@ h1{
     font-size: 60px;
 }
 
+h3{
+    font-size: 30px;
+}
+
 .top-section{
     width: 70%;
     margin: 10px;
@@ -56,6 +62,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#special{
+    background-color: rgb(245, 194, 194);
+    border: 3px solid rgb(168, 18, 18) ;
 }
 
 .card1 {
@@ -87,6 +98,28 @@ h1{
     justify-content: center;
     text-align: center;
 }
+
+.contributes{
+    display: flex;
+    text-align: center;
+}
+
+.how{
+    text-decoration: none;
+    background-color: rgb(206, 77, 70);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.view{
+    width: 50%;
+    padding-left: 10px;
+}
+
+.view img{
+    width: 70%;
+}
+
 
 .plan{
     text-align: center;
@@ -138,3 +171,16 @@ h1{
     position: left;
     margin: 30px 40px 50px 10px;
 } 
+
+.footer{
+    background-color: rgb(11, 7, 7);
+    color: rgb(112, 24, 24);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+.footer .parag{
+    margin-top: 0%;
+    font-size: 15px;
+    color: white;
+}
